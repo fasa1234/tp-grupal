@@ -1,0 +1,91 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50; /* Color de fondo */
+            background-image: url('kamehameha.png'); /* Imagen pixel art de Kamehameha */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo del formulario con opacidad */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        .enviar {
+            background-color: #035f21;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        nav {
+            background-color: #ffffff;
+            padding: 1em;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        nav a {
+            color: #000000;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+        }
+        
+        nav img {
+            max-height: 20px; /* Ajusta la altura del logo según sea necesario */
+            margin-right: 10px; /* Espacio entre el logo y el texto */
+        }
+        footer {
+            background-color: #ffffff;
+            color: #000000;
+            text-align: center;
+            padding: 1em;
+            /* Cambia la posición de fixed a relative */
+            position: relative;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .logos-footer {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        
+        .logos-footer img {
+            max-height: 30px;
+            margin-right: 10px;
+        }
+        
+        .botones-footer button {
+            margin: 0 10px;
+            padding: 10px;
+        }
+        .logo {
+            max-width: 10%; /* La imagen ocupará como máximo el 100% del ancho del contenedor */
+            max-height: 100px; /* Ajusta la altura máxima según tus preferencias */
+        }

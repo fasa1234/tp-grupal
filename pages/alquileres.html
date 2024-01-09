@@ -9,15 +9,26 @@
 </head>
 <body>
 
-    <header>
+    <header class="navegador">
+        <!-- Barra de nav -->
+        <img src="/assets/images/Captura de pantalla 2023-10-18 015225.png" class="logo_superior">
         <nav>
-            <img class="logo" src="/assets/images/logoo.jpg" alt="Logo de la empresa">
-            <a href="/pages/nuevos.html">Autos 0KM</a>
-            <a href="/pages/usados.html">Autos Usados</a>
-            <a href="/pages/alquileres.html">Alquileres</a>
-            <a href="/pages/cambiaTuUsado.html">Cambiar Usado</a>
-            <a href="/pages/formulario.html">Te contactamos</a>
+            <ul class="navegador_links">
+                <li>
+                    <a href="/pages/nuevos.html">Autos 0km</a>
+                </li>
+                <li>
+                    <a href="/pages/usados.html">Usados</a>
+                </li>
+                <li>
+                    <a href="/pages/cambiaTuUsado.html">Cambia tu usado</a>
+                </li>
+                <li>
+                    <a href="/index.html">Inicio</a>
+                </li>
+            </ul>
         </nav>
+        <a href="/index.html#contacto"class="btn"><button>Contacto</button></a>
     </header>
 
     
@@ -117,16 +128,28 @@
  
     </section>
 
-    <footer>
-        <div class="logos-footer">
-            <img src="/assets/images/insta.png" alt="Instagram">
-            <img src="/assets/images/facebook.png" alt="Facebook">
-            <img src="/assets/images/WhatsApp.png" alt="WhatsApp">
+    <footer class="pie_de_pag">
+        <figure>
+            <img src="/assets/images/footer.png" class="img_fot">
+        </figure>
+        <h4>
+            Te esperamos para brindarte una experiencia de compra y alquiler <br> de vehículos excepcional.
+        </h4>
+        <ul class="fot">
+            <li>
+                <a href="https://www.facebook.com" target="_blank">
+                    <button> Facebook</button>
+                </li>
+            <li>
+                <a href="https://www.Instagram.com" target="_blank">
+                    <button>Instagram</button>
+                </li>
+            <li>
+                <a href="./pages/login.html" target="_blank">
+                    <button>Inicio de sesión</button>
+                </li>
         </div>
-        <div class="botones-footer">
-            <button onclick="location.href='/pages/info.html'">Info</button>
-            <button onclick="location.href='/index.html'">inicio</button>
-        </div>
+    </div>
     </footer>
 
 </body>

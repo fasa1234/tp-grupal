@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(#11111F 20%,#5BC2E7);
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #11111F;
+}
+
+.navegador .logo_superior{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.logo_superior{
+    width: 300px;
+    height: 100px;
+}
+
+.navegador .navegador_links{
+    list-style: none;
+}
+
+.navegador .navegador_links li{
+    display:inline-block;
+    padding: 0 50px;
+    color: #5BC2E7;
+}
+
+.navegador .navegador_links li:hover{
+    transform: scale(1.2);
+}
+
+.btn{
+    padding: 10px;
+    margin: 10px;
+}
+
+.navegador .btn button{
+    font-weight: 700;
+    padding: 11px 50px;
+    border-radius: 50px;
+    background-color: #5BC2E7;
+    color: #11111F;
+    cursor: pointer;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.img_central{
+    width: 200px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 100px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.seccion p{
+    text-align: center;
+}
+
+.img_admi{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.seccion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;   
+}
+
+.usuario, .contraseña, .btn {
+  margin-top: 10px;
+}
+
+.btn {
+    background-color: #11111F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pie_de_pag{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fot li{
+    list-style: none;
+    margin: 15px;
+}
+
+.img_fot{
+    width: 300px;
+    height: auto;
+}

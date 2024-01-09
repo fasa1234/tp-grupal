@@ -1,116 +1,197 @@
-body {
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
     padding: 0;
-    background-color: #5BC2E7; /* Cambia el color de fondo a azul oscuro */
-    color: #000; /* Cambia el color del texto a negro */
 }
 
-header, footer {
-    background-color: #fff; /* Cambia el color de fondo del header y el footer a blanco */
-    color: #000; /* Cambia el color del texto a negro */
+body{
+    background-image: linear-gradient(#11111F 15%,#5BC2E7,#11111F);
 }
 
-nav {
-    background-color: #ffffff;
-    padding: 1em;
-    text-align: center;
+.navegador {
     display: flex;
     justify-content: space-between;
-}
-
-nav a {
-    color: #000000;
-    text-decoration: none;
-    padding: 1em;
-    margin: 0 1em;
-}
-
-section {
-    padding: 2em;
-}
-
-.autos-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
-
-.auto-card {
-    border: 1px solid #ddd;
-    padding: 1em;
-    text-align: center;
-    background-color: #fff;
-    border-radius: 20px;
-}
-
-.marca-title {
-    grid-column: span 4;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-footer {
-    background-color: #fff;
-    color: #000;
-    text-align: center;
-    padding: 1em;
-    /* Cambia la posición de fixed a relative */
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    padding: 5px;
+    color: #5BC2E7;
 }
 
-.logos-footer {
-    display: flex;
-    margin-bottom: 10px;
+.navegador .logo_superior{
+    cursor: pointer;
+    margin-right: auto;
 }
 
-.logos-footer img {
-    max-height: 30px;
-    margin-right: 10px;
+.logo_superior{
+    width: 300px;
+    height: 100px;
 }
 
-.botones-footer button {
-    margin: 0 10px;
+.navegador .navegador_links{
+    list-style: none;
+}
+
+.navegador .navegador_links li{
+    display:inline-block;
+    padding: 0 50px;
+    color: #5BC2E7;
+}
+
+.navegador .navegador_links li:hover{
+    transform: scale(1.2);
+}
+
+.btn{
     padding: 10px;
-    border-radius: 20px;
-
+    margin: 10px;
 }
 
-.opinion {
+.navegador .btn button{
+    font-weight: 700;
+    padding: 11px 50px;
+    border-radius: 50px;
+    background-color: #5BC2E7;
+    color: #11111F;
+    cursor: pointer;
+}
+
+.principal{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    height: 500px;
     align-items: center;
-    justify-content: flex-end;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5%; /* Asegura que el contenedor de opinión ocupe toda la altura */
+    justify-content: center;
 }
 
-.botoon {
-    margin-top: auto;
-    border-radius: 20px; /* Mueve el botón hacia la parte inferior */
+.principal .img_principal{
+    width: 1500px;
+    height: 500px;
+}
+
+.ingresos{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #11111F;
+    color: #5BC2E7;
+}
+
+div{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.autos{
+    display: flex;
+    justify-content: center;
+    justify-content: right ;
+    margin: 10px;
+    width: auto;
+}
+
+.opiniones{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+}
+
+.opiniones .box{
+    background-color: #082f3d;
+    border-radius: 10px;
+}
+
+.Img_Reseña{
+    height: 160px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.panoramica{
+    width: 100%;
+    margin-top: -50px;
     
 }
 
-h2 {
-    text-align: center;
-}
-.auto-card img {
-    max-width: 100%; /* La imagen ocupará como máximo el 100% del ancho del contenedor */
-    max-height: 150px; /* Ajusta la altura máxima según tus preferencias */
-    border-radius: 15%;
-}
-.logo {
-    max-width: 10%; /* La imagen ocupará como máximo el 100% del ancho del contenedor */
-    max-height: 100px; /* Ajusta la altura máxima según tus preferencias */
-}
-.logo {
-    max-width: 10%; /* La imagen ocupará como máximo el 100% del ancho del contenedor */
-    max-height: 100px; /* Ajusta la altura máxima según tus preferencias */
+.texto{
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
 }
 
+.img_fot{
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.texto_servicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.texto_servicio h1 {
+    font-size: 50px;
+}
+
+.texto_servicio p{
+    margin: 2px;
+    font-size: 20px;
+}
+
+.img{
+    width: 500px;
+    border-radius: 50px;
+}
+
+.img_formulario{
+    width: 200px;
+    height: 100px;
+}
+
+.formulario{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px 20px;
+}
+
+input, textarea, select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.pie_de_pag{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    background-color: #11111F;
+}
+
+.fot li{
+    list-style: none;
+    margin: 15px;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+}

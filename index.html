@@ -1,110 +1,240 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css">
-    <title>Bienvenido</title>
-
+    <link rel="stylesheet" href="css/index.css">
+    <title> Automores Nueva Cordoba </title>
 </head>
 <body>
-
-    <header>
+    <!-- Comentarios Alt+Shift+A --> 
+    <!-- Encabezado de pagina -->
+    <header class="navegador">
+        <!-- Barra de nav -->
+        <img src="assets/images/Captura de pantalla 2023-10-18 015225.png" class="logo_superior">
         <nav>
-            <img class="logo" src="/assets/images/logoo.jpg" alt="Logo de la empresa">
-            <a href="/pages/nuevos.html">Autos 0KM</a>
-            <a href="/pages/usados.html">Autos Usados</a>
-            <a href="/pages/alquileres.html">Alquileres</a>
-            <a href="/pages/cambiaTuUsado.html">Cambiar Usado</a>
-            <a href="/pages/formulario.html">Te contactamos</a>
+            <ul class="navegador_links">
+                <li>
+                    <a href="pages/nuevos.html">Autos 0km</a>
+                </li>
+                <li>
+                    <a href="pages/usados.html">Usados</a>
+                </li>
+                <li>
+                    <a href="pages/alquileres.html">Alquileres</a>
+                </li>
+                <li>
+                    <a href="pages/cambiaTuUsado.html">Cambia tu usado</a>
+                </li>
+            </ul>
         </nav>
+        <a href="#contacto"class="btn"><button>Contacto</button></a>
     </header>
-
-   
-
-    <section id="autos-nuevos">
-        <h2>Bienvenido</h2>
-
-        <div class="autos-grid">
-            <!-- Fila 1 -->
-            <div class="marca-title">OFERTAS</div>
-            <div class="auto-card">
-                <img src="/assets/images/car1.jpg" alt="Auto 1">
-                <p>Modelo: Modelo1</p>
-                <button class="botoon" onclick="location.href='#detalle-auto1'">Ver Detalles</button>
+    <main>
+        <section class="principal">
+            <img src="assets/images/Principal.png" class="img_principal">
+        </section>
+        <section class="ingresos">
+            <h1>NUEVOS INGRESOS</h1>
+        </section>
+        <section class="autos">
+            <div>
+                <figure>
+                    <img src="assets/images/0km1.jpg" alt="">
+                </figure>
+                <button type="button">Inspeccionar</button>
             </div>
-            <div class="auto-card">
-                <img src="/assets/images/car2.jpg" alt="Auto 2">
-                <p>Modelo: Modelo2</p>
-                <button class="botoon" onclick="location.href='#detalle-auto2'">Ver Detalles</button>
+            <div>
+                <figure>
+                    <img src="assets/images/0km2.jpg" alt="">   
+                </figure>
+                <button type="button">Inspeccionar</button>
             </div>
-            <div class="auto-card">
-                <img src="/assets/images/car3.jpg" alt="Auto 3">
-                <p>Modelo: Modelo3</p>
-                <button class="botoon" onclick="location.href='#detalle-auto3'">Ver Detalles</button>
+            <div>
+                <figure>
+                    <img src="assets/images/0km3.jpg" alt="">
+                </figure>
+                <button type="button">Inspeccionar</button>
             </div>
-            <div class="auto-card">
-                <img src="/assets/images/car4.jpg" alt="Auto 4">
-                <p>Modelo: Modelo4</p>
-                <button class="botoon" onclick="location.href='#detalle-auto4'">Ver Detalles</button>
+            <div>
+                <figure>
+                    <img src="assets/images/0km5.jpg" alt="">
+                </figure>
+                <button type="button">Inspeccionar</button>
             </div>
-            <!-- Fila 2 -->
-            <div class="marca-title">Lo Mas Nuevo</div>
-            <div class="auto-card">
-                <img src="/assets/images/car3.jpg" alt="Auto 5">
-                <p>Modelo: Modelo5</p>
-                <button class="botoon" onclick="location.href='#detalle-auto5'">Ver Detalles</button>
+        </section>
+        <section class="medio">
+            <div>
+                <figure>
+                    <img src="assets/images/toro.png" class="img_med">
+                </figure>
+                <button type="button">Inspeccionar</button>
             </div>
-            <div class="auto-card">
-                <img src="/assets/images/car1.jpg" alt="Auto 5">
-                <p>Modelo: Modelo5</p>
-                <button class="botoon" onclick="location.href='#detalle-auto5'">Ver Detalles</button>
+        </section>
+        <section class="autos">
+            <div>
+                <figure>
+                    <img src="assets/images/0km1.jpg" alt="">
+                </figure>
             </div>
-            <div class="auto-card">
-                <img src="/assets/images/car2.jpg" alt="Auto 5">
-                <p>Modelo: Modelo5</p>
-                <button class="botoon" onclick="location.href='#detalle-auto5'">Ver Detalles</button>
+            <div>
+                <figure>
+                    <img src="assets/images/0km2.jpg" alt="">   
+                </figure>
             </div>
-            <div class="auto-card">
-                <img src="/assets/images/car5.jpg" alt="Auto 5">
-                <p>Modelo: Modelo5</p>
-                <button class="botoon" onclick="location.href='#detalle-auto5'">Ver Detalles</>
+            <div>
+                <figure>
+                    <img src="assets/images/0km3.jpg" alt="">
+                </figure>
             </div>
-           
-            <!-- Fila 3 -->
-            <div class="marca-title">Opiniones</div>
-<div class="opinion">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum fuga dolor autem quam, voluptates nobis impedit, facere labore molestias, recusandae ab. Voluptate itaque exercitationem optio officia ea vero aliquam magnam.</p>
-    <button class="botoon" onclick="location.href='#detalle-auto9'">Deja Tu Opinion</button>
-</div>
-<div class="opinion">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste velit officia veniam explicabo dolores eveniet dolor esse eos quia, eaque, nulla error harum temporibus dicta obcaecati nobis culpa repellat nostrum?</p>
-    <button class="botoon" onclick="location.href='#detalle-auto10'">Deja Tu Opinion</button>
-</div>
-<div class="opinion">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem corporis deleniti corrupti nemo iusto officiis aliquam sapiente, accusantium quia ratione a nihil ipsa voluptates animi iure consequuntur at! Dignissimos!</p>
-    <button class="botoon" onclick="location.href='#detalle-auto11'">Deja Tu Opinion</button>
-</div>
-<div class="opinion">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam blanditiis non autem a tempora sed itaque quod doloribus nisi vitae culpa ut, veritatis iusto recusandae, harum odio modi soluta suscipitdfaffafassfsafsafasfas.</p>
-    <button class="botoon" onclick="location.href='#detalle-auto12'">Deja Tu Opinion</button>
-</div>
-
-            <!-- Fila 4 -->
- 
-    </section>
-
-    <footer>
-        <div class="logos-footer">
-            <img src="/assets/images/insta.png" alt="Instagram">
-            <img src="/assets/images/facebook.png" alt="Facebook">
-            <img src="/assets/images/WhatsApp.png" alt="WhatsApp">
-        </div>
-        <div class="botones-footer">
-            <button onclick="location.href='/pages/info.html'">Info</button>
-            <button onclick="location.href='index.html'">inicio</button>
+            <div>
+                <figure>
+                    <img src="assets/images/0km5.jpg" alt="">
+                </figure>
+            </div>
+        </section>
+        <section class="ingresos">
+            <h1>RESEÑAS</h1>
+        </section>
+        <section class="opiniones">
+            <div class="box">
+                <figure>
+                    <img src="assets/images/Captura de pantalla 2023-10-18 033507.png" class="Img_Reseña">
+                </figure>
+                <h3>
+                    "Automotora Nueva Cordoba es mi <br>
+                    elección número uno para autos. <br>
+                    Compré un auto nuevo y alquilé <br>
+                    vehículos para viajes de negocios. <br>
+                    También hice un cambio de auto con <br>
+                    una excelente oferta. El personal es <br>
+                    amable y profesional, y seguiré <br>
+                    siendo cliente fiel". <br>
+                </h3>
+                <h5>-Ricardo Fort</h5>
+            </div>
+            <div class="box">
+                <figure>
+                    <img src="assets/images/Captura de pantalla 2023-10-18 033806.png" class="Img_Reseña">
+                </figure>
+                <h3>
+                    "Mi experiencia en automotora Nueva Cordoba <br>
+                    ha tenido altibajos. Compré un auto usado y <br>
+                    tuve problemas con la financiación. El alquiler <br>
+                    de autos fue bueno, pero no quedé satisfecho <br>
+                    con la valoración al cambiar mi auto. Aunque <br>
+                    considero la empresa como opción <br>
+                    conveniente".
+                </h3>
+                <h5>-Chanito</h5>
+            </div>
+            <div class="box">
+                <figure>
+                    <img src="assets/images/Captura de pantalla 2024-01-08 021627.png" class="Img_Reseña">
+                </figure>
+                <h3>
+                    "Mi experiencia en automotora Nueva <br>
+                    Cordoba ha sido increíble. Compré <br>
+                    un auto nuevo sin complicaciones y <br>
+                    alquilé un auto para un viaje. La <br>
+                    recomendaría a a cualquiera".
+                </h3>
+                <h5>-Doña Mirtha</h5>
+            </div>
+        </section>
+        <section class="ingresos">
+            <h1>NOSOTROS</h1>
+        </section>
+        <section class="texto">
+            <figure>
+                <img src="assets/images/DSC00249-Pano-e1683553817313.jpg" class="panoramica">
+            </figure>
+            <article>
+                <div class="texto_servicio">
+                    <div>
+                        <h1> Experiencia y Compromiso </h1>
+                        <p>
+                            <!-- Parrafo -->
+                            Con años de experiencia en la industria automotriz, sabemos lo que significa ofrecer un servicio <br> 
+                            excepcional. Nuestro compromiso con la satisfacción del cliente se refleja en cada
+                            interacción que tengas con nosotros. <br> Nuestro equipo de expertos está aquí para ayudarle a encontrar el vehículo <br> 
+                            perfecto que se adapte a sus necesidades y presupuesto.
+                        </p>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="assets/images/Captura de pantalla 2023-10-18 015225.png" class="img">
+                        </figure>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="texto_servicio">
+                    <div>
+                        <figure class="mapa">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.589279513243!2d-64.1838758!3d-31.4254403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28fd2313f31%3A0x5b4e8e465ad95615!2sObispo%20Oro%20281%2C%20X5000%20BFE%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1704693089253!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </figure>
+                    </div>
+                    <div>
+                        <h1> Visitanos Hoy </h1>
+                        <p>No importa si estás buscando un auto nuevo, un auto usado de calidad o un auto <br>
+                        para alquilar,tenemos la solución que necesitas. ¡Visítanos hoy en nuestra ubicación en Nueva Cordoba, <br>
+                        Obispo Oro 281 y descubre por qué somos la elección preferida de los amantes de los autos!. <br>
+                        Te esperamos para brindarte una experiencia de compra y alquiler de vehículos excepcional.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <section class="ingresos" id="contacto">
+                <h1>CONTACTANOS</h1>
+            </section>
+            <div class="formulario">
+                <div>
+                <h1>Formulario de Contacto - Automotora Nueva Córdoba</h1>
+                <form action="">
+                    <input type="text" name="Nombre" placeholder="Nombre y Apellido:">
+                    <input type="email" name="Correo" placeholder="Ingresar correo electronico">
+                    <label for="opciones">Operacion</label>
+                    <select name="opciones" id="opciones">
+                        <option value="">Seleccione una opcion</option>
+                        <option value="opcion1">Compra</option>
+                        <option value="opcion1">Alquiler</option>
+                        <option value="opcion1">Cambio de usado</option>
+                    </select>
+                    <textarea type="text" name="Mensaje" placeholder="Escriba aqui su consulta."></textarea>
+                    <input type="button" value="Enviar" id>
+                </form>
+                <p>¡Gracias por elegir Automotora Nueva Córdoba! <br>
+                 Estamos emocionados por ayudarte a encontrar el automóvil perfecto para tus necesidades. <br>
+                 Completa el siguiente formulario con tus detalles y preferencias, y nuestro equipo se pondrá en contacto contigo lo antes posible.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="pie_de_pag">
+    <!-- Pie de pagina -->
+            <figure>
+                    <img src="/assets/images/footer.png" class="img_fot">
+            </figure>
+            <h4>
+                Te esperamos para brindarte una experiencia de compra y alquiler <br> de vehículos excepcional.
+            </h4>
+            <ul class="fot">
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                    <button> Facebook</button>
+                </li>
+                <li>
+                    <a href="https://www.Instagram.com" target="_blank">
+                    <button>Instagram</button>
+                </li>
+                <li>
+                    <a href="./pages/login.html" target="_blank">
+                    <button>Inicio de sesión</button>
+                </li>
+            </div>
         </div>
     </footer>
-
 </body>
 </html>
